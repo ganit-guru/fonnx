@@ -26,17 +26,17 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      android:
-        package: com.telosnex.fonnx
-        pluginClass: FonnxPlugin
-      ios:
-        pluginClass: FonnxPlugin
-      linux:
-        pluginClass: FonnxPlugin
-      macos:
-        pluginClass: FonnxPlugin
-      windows:
-        pluginClass: FonnxPluginCApi
+      # android:
+      #   package: com.telosnex.fonnx
+      #   pluginClass: FonnxPlugin
+      # ios:
+      #   pluginClass: FonnxPlugin
+      # linux:
+      #   pluginClass: FonnxPlugin
+      # macos:
+      #   pluginClass: FonnxPlugin
+      # windows:
+      #   pluginClass: FonnxPluginCApi
       web:
         pluginClass: FonnxWeb
         fileName: fonnx_web.dart
